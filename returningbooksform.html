@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="returningbooksform.css">
+    <script src="https://kit.fontawesome.com/51d8c2a1a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Library Management</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i><a href="#dashboard" class="active">DashBoard</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#studnets" class="">Add Students</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teachers" class="">Add Teacher</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#student" class="">View Student</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teacher" class="">View Teacher</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="#logout" class="">Logout</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="returningbooksform.html" class="">Return</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="issuebooksform.html" class="">Issue Book</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="addbooksform.html" class="">Add Book</a></li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <h1><i class="fa-sharp fa-regular fa-person-walking-arrow-loop-left"></i>Returning Books</h1>
+        <form>
+            <div class="box2">
+                <label for="Member Information"><h2><b>Member Information:</b></h2></label>
+                <br><br>
+
+                <label for="Member ID"><b>Member ID:</b></label>
+                <input type="Number" placeholder="Member ID" minlength="3" maxlength="20"><br><br>
+
+                <label for="Member Name"><b>Member Name:</b></label>
+                <input type="Text" placeholder="Name of the member" minlength="3" maxlength="20"><br><br>
+
+                <label for="Book Information"><h2><b>Book Information:</b></h2></label>
+                <br><br>
+
+                <label for="Book Title"><b>Book Title:</b></label>
+                <input type="Text" placeholder="Title of the book" minlength="3" maxlength="20"><br><br>
+
+                <label for="Return Details"><h2><b>Return Details:</b></h2></label>
+                <br><br>
+
+                <label for="Return Date"><b>Return Date:</b></label>
+                <input type="Number" placeholder="Return Date" minlength="3" maxlength="20"><br><br>
+
+                <label for="Condition on Return"><b>Condition on Return:</b></label>
+                <input type="Text" placeholder="condition of thr book" minlength="3" maxlength="20"><br><br>
+
+                <label for="Received By"><b>Received By:</b></label>
+                <input type="Text" placeholder="Received By" minlength="3" maxlength="50"><br><br>
+
+                <label for="Fine Details"><h2><b>Fine Details:</b></h2></label>
+                <br><br>
+
+                <label for="Overdue Days"><b>Overdue Days:</b></label>
+                <input type="Text" placeholder="Overdue Days" minlength="3" maxlength="20"><br><br>
+
+                <label for="Fine Amount"><b>Fine Amount:</b></label>
+                <input type="Number" placeholder="Fine Amount" minlength="3" maxlength="50"><br><br>
+
+                <label for="Fine Payment Status"><b>Fine Payment Status:</b></label>
+                <input type="Text" placeholder="Paid/Unpaid" minlength="3" maxlength="20"><br><br>
+
+
+                <label for="Additional Fields"><h2><b>Additional Fields:</b></h2></label>
+                <br><br>
+
+                <label for="Remarks/Notes"><b>Remarks/Notes:</b></label>
+                <input type="Text" placeholder="Remark/Notes" minlength="3" maxlength="50"><br><br>
+            </div>
+            <div class="box">
+                <button type="Returning Books">Returning Books</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

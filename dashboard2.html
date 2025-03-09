@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard2.css">
+    <script src="https://kit.fontawesome.com/51d8c2a1a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Library Management</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i><a href="#dashboard" class="active">DashBoard</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#studnets" class="">Add Students</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teachers" class="">Add Teacher</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#student" class="">View Student</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teacher" class="">View Teacher</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="#logout" class="">Logout</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="returningbooksform.html" class="">Return</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="issuebooksform.html" class="">Issue Book</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="addbooksform.html" class="">Add Book</a></li>
+
+        </ul>
+    </div>
+    <div class="container">
+        
+        <h1> <i class="fa-solid fa-list fa-beat"></i>Add New Books</h1>
+        <form>
+            <label for="Title"><b>Title: </b></label>
+            <input type="text" placeholder="Name Of The Books..." required><br>
+
+            <label for="author">Author:</label>
+            <input type="text" placeholder="Name of The Author..." required><br>
+
+            <label for="publisher">Publisher:</label>
+            <input type="text" placeholder="Name of Publisher" required><br>
+
+            <label for="isbn">ISBN:</label>
+            <input type="number" placeholder="Identification number" required title="Enter ISBN number"><br>
+
+            <label for="edition">Edition:</label>
+            <input type="number" placeholder="Enter Edition" title="The edition or version of the book." required><br>
+
+            <label for="genre">Genre/Field:</label>
+            <select name="" id="">
+                <option value="Genre" >--Select Option--</option>
+                <option value="fiction"class="active">Fiction</option>
+                <option value="Romance">Romance</option>
+                <option value="Action">Action</option>
+                <option value="non-fiction">Non-fiction</option>
+                <option value="Slice OF life">Slice Of Life</option>
+                <option value="Historical">Historical</option>
+                <option value="Adventure">Adventure</option>
+            </select><br>
+
+            <label for="Subject">Subject/Field:</label>
+            <select name="" id="">
+                <option value="">--Select Option--</option>
+                <option value="maths">Mathematics</option>
+                <option value="sciencs">sciencs</option>
+                <option value="computer">Computer</option>
+                <option value="Programming">Programming</option>
+                <option value="English">English</option>
+            </select>
+            <div class="main">
+                <button type="Add Books">Add New Book</button>
+            </div>
+    
+        </form>
+    </div>
+</body>
+</html>

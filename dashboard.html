@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Navbar with Logo</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://kit.fontawesome.com/b4b9485a4e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>Lilies Library</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </header>
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">DashBoard</a></li>
+                <li><a href="#">Add Students</a></li>
+                <li><a href="#">Add Teacher</a></li>
+                <li><a href="#">Views Students</a></li>
+                <li><a href="#">View Teacher</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+
+        <div class="flex-container">
+            <div class="box1">
+                <i class="fa-solid fa-users"></i>
+                <h1>0</h1>
+                <p>Total Member</p>
+            </div>
+
+
+            <div class="box2">
+                <i class="fa-duotone fa-solid fa-book"></i>
+                <h1>0</h1>
+                <p>Total Books</p>
+            </div>
+
+
+            <div class="box3">
+                <i class="fa-solid fa-clock"></i>
+                <h1>0</h1>
+                <p>Total Issue</p>
+            </div>
+
+
+            <div class="box4">
+                <i class="fa-duotone fa-solid fa-arrow-right"></i>
+                <h1>0</h1>
+                <p>Total Return</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <h1><b>Recent Circulation</b></h1>
+            <h2>Add Issue</h2>
+        </div>
+
+        <div class="sub">
+            <label for="entries" class="class1">Show</label>
+            <input type="number" pattern="[1-10]" maxlength="20" placeholder="10" id="id1"> Entries
+
+            <label for="search" class="class2">Search</label>
+            <input type="text" pattern="[A-Za-Z]" placeholder="Name...." id="id2">
+        </div>
+
+        <table border="1" cellspadding="1" cellspacing="0">
+            <tr>
+                <td>Member ID</td>
+                <td>Book ID</td>
+                <td>Issue Date</td>
+                <td>Due Date</td>
+                <td>Return Date</td>
+                <td>Status</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </table>
+
+
+    </div>
+    </div>
+    <tr>
+        <td colspan="7" class="no-data">No data available in table</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    <footer>
+        <h3>&copy;All Right Reserved</h3>
+    </footer>
+
+    </div>
+</body>
+
+</html>

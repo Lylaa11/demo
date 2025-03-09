@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addbooksform.css">
+    <script src="https://kit.fontawesome.com/51d8c2a1a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Library Management</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i><a href="#dashboard" class="active">DashBoard</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#studnets" class="">Add Students</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teachers" class="">Add Teacher</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#student" class="">View Student</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teacher" class="">View Teacher</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="#logout" class="">Logout</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="returningbooksform.html" class="">Return</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="issuebooksform.html" class="">Issue Book</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="addbooksform.html" class="">Add Book</a></li>
+
+        </ul>
+    </div>
+    <div class="container">
+        <h1><i class="fa-solid fa-book"></i>Add New Books</h1>
+        <form>
+            <div class="box2">
+                <label for="Title"><b>Title:</b></label>
+                <input type="Text" placeholder="Title of the book" required style="height: 30px; width: 500px;" title=title><br><br>
+
+                <label for="Author"><b>Author:</b></label>
+                <input type="Text" placeholder="Name of the author" minlength="3" maxlength="20"><br><br>
+
+                <label for="Publisher"><b>Publisher:</b></label>
+                <input type="Text" placeholder="Name of the publishing company" minlength="3" maxlength="20"><br><br>
+
+                <label for="ISBN"><b>ISBN:</b></label>
+                <input type="Number" placeholder="Unique International Standard Number For Identification" minlength="3" maxlength="20"><br><br>
+
+                <label for="Edition"><b>Edition:</b></label>
+                <input type="Number" placeholder="The edition or version of the book" minlength="3" maxlength="20"><br><br>
+
+                <label for="Language"><b>Language:</b></label>
+                <input type="Text" placeholder="Language of the book" minlenth="3" maxlength="20"><br><br>
+
+                <label for="Genre/Category"><b>Genre/Category:</b></label>
+                <select name="" id="" required>
+                    <option value="">--Select Option--</option>
+                    <option value="">Fiction</option>
+                    <option value="">Non-fiction</option>
+                    <option value="">Science</option>
+                    <option value="">History</option>
+                    <option value="">Others</option>
+                </select><br><br>
+
+                <label for="Subject/Field"><b>Subject/Field:</b></label>
+                <select name="" id="" required>
+                    <option value="">--Select Option--</option>
+                    <option value="">Mathematics</option>
+                    <option value="">English</option>
+                    <option value="">Science</option>
+                    <option value="">Nepali</option>
+                    <option value="">Computer</option>
+                    <option value="">Social</option>
+                </select><br><br>
+
+
+            </div>
+            <div class="box">
+                <button type="Add New Books">Add New Books</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/51d8c2a1a7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Library Management</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Setting</a></li>
+            </ul>
+        </nav>
+        <div class="clear"></div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li><i class="fa-solid fa-bars"></i><a href="#dashboard" class="active">DashBoard</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#studnets" class="">Add Students</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teachers" class="">Add Teacher</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#student" class="">View Student</a></li>
+            <li><i class="fa-regular fa-address-card"></i><a href="#teacher" class="">View Teacher</a></li>
+            <li><i class="fa-solid fa-right-from-bracket"></i><a href="#logout" class="">Logout</a></li>
+        </ul>
+    </div>
+    <div class="container">
+    <h1><i class="fa-solid fa-book"></i> Add New Library Member</h1>
+    <form> 
+        <div class="box2">
+        <label for="Role"><b>Role:</b></label>
+        <select name="" id="" required>
+            <option value="">--Select Option--</option>
+            <option value="">Admin</option>
+            <option value="">Students</option>
+            <option value="">Others</option>
+        </select><br><br>
+        <label for="Membership"><b>Membership-Id:</b></label>
+        <input type="number" placeholder="enter member id" required style="height: 30px; width: 500px;" title="id"><br><br>
+
+
+        <label for="fullname"><b>Full-name:</b></label>
+        <input type="text" placeholder="Full-name*" title="fullname"  minlength="3" maxlength="20"><br><br>
+
+
+        <label for="email"><b>E-mail:</b></label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your E-mail" title="Enter your E-mail"><br><br>
+
+
+        <label for="phone-number"><b>Phone-number:</b></label><br>
+        <input type="phone" placeholder="phone number" title="Enter number"  minlength="10" max="13" required ><br><br>
+
+
+        <label for="Batch"><b>Batch</b></label><br>
+        <input type="year" title="batch(Not Mandatory)" value="20" max="4"><br><br>
+
+
+        <label for="password"><b>Password:</b></label><br>
+        <input type="Password" title="[A-Za-z]{5}" required pattern="[A-Za-z]{5}" minlength="5" ><br><br>
+
+
+        <label for=" confirm password"><b>Confirm-password:</b></label><br>
+        <input type="text" title="Confirm-password" required  pattern="[A-Za-z]{3}[0-9]{0-9}" title="[A-Za-z]{3}[0-9]{0-9}" max="8"><br><br>
+
+        </div>
+
+        <div class="box">
+            <button type="Add New Library Member">Add New Library Member</button>
+        </div>
+    </form>
+</body>
+</html>

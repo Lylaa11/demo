@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #525050;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+    width: 35%;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+nav {
+    float: right;
+    width: 65%;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.clear {
+    clear: both;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgb(105, 130, 152);
+    padding-top: 20px;
+    height: 90%
+    top: 130px;
+    float: left;
+    bottom: 0;
+    font-size: 20px;
+}
+.sidebar .active{
+    background-color:rgb(93, 147, 194);
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+    padding: 10px;
+    /* float: left; */
+}
+
+.sidebar ul li a {
+    color: black;
+    display: block;
+    padding: 30px;
+}
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(180, 144, 99);
+    text-align: center;
+    border: 3px solid rgb(140, 71, 61);
+}
+.box2{
+    margin: 10px;
+    padding: 0 auto;
+    text-align: left;
+    width: 600px;  
+}
+button{
+    border: 10px solid;
+    background-color: rgb(59, 203, 222);
+    color: white;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    height:50px;
+    width: 500px;
+}
+.container input,label,select{
+    margin: 20px;
+    height: 35px;
+    width: 500px;
+    border-radius: 10px;
+}
